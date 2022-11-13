@@ -26,7 +26,7 @@ const Message = ({ apiState }) => {
         message = 'Emails are sent successfully!';
     }
 
-    return message ? <div>{message}</div> : null;
+    return message ? <div className="message">{message}</div> : null;
 };
 
 export default Message;

@@ -24,10 +24,12 @@ const DropZone = ({ onFiles }) => {
 
     return (
         <div
+            className="drop-zone"
             onDrop={handleDrop}
             onDragOver={preventDefault}
             onClick={handleClick}
         >
+            <img src="/img/drag.svg" alt="Drag and Drop icon" className="drop-icon" />
             <input type="file" multiple ref={inputRef} onChange={handleSelect} />
             Click to select or just drop files
         </div>

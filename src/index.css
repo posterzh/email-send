@@ -8,3 +8,25 @@ body {
     max-width: 700px;
     margin: auto;
 }
+
+.app-actions {
+    margin-top: 20px;
+}
+
+.send-emails {
+    height: 40px;
+    background-color: blue;
+    box-shadow: 0 0 0 3px #0000ff44;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.send-emails:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

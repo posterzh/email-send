@@ -1,0 +1,22 @@
+.drop-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 40px 0;
+    border: 2px dashed #a78bfa;
+    cursor: pointer;
+    color: white;
+    height: 200px;
+}
+
+.drop-icon {
+    color: #a78bfa;
+    width: 100px;
+    height: 100px;
+}
+
+.drop-zone input {
+    display: none;
+}
