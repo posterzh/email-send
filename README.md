@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Email Sender
+Simple React application that will let the user select text files containing email addresses, read the files and send the email addresses to the API. 
+
+## Screenshot
+![Screenshot](screenshots/image1.png)
+
 
 ## Available Scripts
 
