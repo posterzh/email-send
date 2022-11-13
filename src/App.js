@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { DropZone, Files } from './components';
+import {DropZone, Files, Message} from './components';
 import { useParseEmails, useSendEmails } from './hooks';
 
 function App() {
@@ -55,6 +55,7 @@ function App() {
     return (
         <div className="app">
             <DropZone onFiles={handleFiles} />
+            <Message apiState={apiState} />
             <div>
                 <button
                     disabled={!haveSelectedFiles && !isParsing}
